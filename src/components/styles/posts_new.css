@@ -1,0 +1,8 @@
+#root > div.container-fluid {
+    height: 100vh;
+}
+
+#root > div > form > div > div {
+    border-radius: 0.52vw;
+    opacity: 0.7;
+}

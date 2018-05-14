@@ -1,0 +1,41 @@
+body{
+    overflow: hidden;
+}
+
+#root{
+    background-image : url('colorful-triangles-background.jpg');
+    background-position :  center ;
+    background-repeat : no-repeat;
+}
+
+#root > div > nav { 
+    background-color: rgba(255, 255, 255, 0.34);
+}
+
+#root > div > nav > ul > a, #root > div > nav {
+    background-color: transparent;
+}
+
+#root > div > div > ul > a > li {
+    background-color: rgba(255, 255, 255, 0.47);
+    margin-bottom: 0.88vw;
+}
+
+#root > div > form > div:nth-child(3) > input {
+    height: 16vw;
+}
+
+#root > div > div {
+    margin-top: 4.7vw;
+}
+
+#root > div > div.container-fluid {
+    height: 100vw;
+    max-height: 79vh;
+    padding-bottom: 2vw;
+}
+
+#root > div > div.container-fluid > div {
+    height: 100%;
+    opacity: 0.52;
+}
